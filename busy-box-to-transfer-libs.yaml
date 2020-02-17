@@ -12,10 +12,10 @@ spec:
       name: busybox
       securityContext:
         privileged: true
-      volumeMounts:
-        - mountPath: /ucd-lib
-          name: ucd-lib
-  volumes:
-    - name: ucd-lib
-      persistentVolumeClaim:
-        claimName: ucd-extlib-new ##change here
+#       volumeMounts:
+#         - mountPath: /ucd-lib
+#           name: ucd-lib
+#   volumes:
+#     - name: ucd-lib
+#       persistentVolumeClaim:
+#         claimName: ucd-extlib-new ##change here
