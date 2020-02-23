@@ -6,7 +6,6 @@ kind: Pod
 metadata:
   generateName: busybox-
   labels:
-    env: $ENV
     name: busybox-app
 spec:
   containers:
