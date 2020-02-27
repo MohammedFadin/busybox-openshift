@@ -7,6 +7,7 @@ metadata:
   generateName: busybox-
   labels:
     name: busybox-app
+    tier: backend
 spec:
   containers:
     - image: busybox:latest
