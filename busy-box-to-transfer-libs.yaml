@@ -18,6 +18,7 @@ spec:
 #       volumeMounts:
 #         - mountPath: /ucd-lib
 #           name: ucd-lib
+  serviceAccountName: serviceaccount-with-root-access
 #   volumes:
 #     - name: ucd-lib
 #       persistentVolumeClaim:
