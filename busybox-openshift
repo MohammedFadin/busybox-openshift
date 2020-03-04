@@ -1,13 +1,13 @@
 ###
-######### Used only for Data migration between File Storages.  By: Fadin
+######### The infamous busybox pod for testing and for data migration between File Storages.  By: Fadin
 ###
 apiVersion: v1
 kind: Pod
 metadata:
   generateName: busybox-
   labels:
-    name: busybox-app
-    tier: backend
+    name: busybox
+    tier: utility
 spec:
   containers:
     - image: busybox:latest
